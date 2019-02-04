@@ -23,8 +23,9 @@ So könnte eure Anlage aussehen. Es gibt eine Powerbank zur Stromversorgung, den
 An die ersten 3 Einsender von neuen Kennzeichenscan-Anlagen verschenken wir je einen 25 Euro Gutschein. Einsendungen bitte über https://encrypt.to/0x4E3C9B04 
 
 Voraussetzungen:
-* Die Anlagen sind noch nicht in unserer Karte https://umap.openstreetmap.fr/en/map/ake-deutschland_234435 enthalten
-
+* Die Anlagen sind noch nicht im Layer "AKE verifiziert" in unserer Karte https://umap.openstreetmap.fr/en/map/ake-deutschland_234435 enthalten
+* Tipp: Wir haben in der Karte vermutete Positionen. Dort ist die Wahrscheinlichkeit Anlagen zu finden aus unserer Sicht besonders hoch.
+* Für die erste Suche reicht es aus die Augen offen zu halten und erst bei Fund diesen videotechnisch festzuhalten, siehe https://github.com/Scan-Rec/Scan-Rec/wiki/Weitere-einfache-Erkennungsm%C3%B6glichkeiten
 * Aus dem Foto/Video muss die Position der Anlage klar hervorgehen, z.B. durch eine GPS-Einblendung oder einen ausreichend langen Ausschnitt um die Position durch Abfahrtsnamen auf der Gegenfahrbahn verifizieren zu können. D.h. sollte das Video keine GPS-Koordinaten zeigen, muss mindestens die komplette Fahrt zwischen 2 Ausfahrten eingesendet werden
 * Das Foto/Video muss die Anlage bei Tag zeigen. Ein Video/Foto bei Nacht des IR-Blitzes nehmen wir gerne zusätzlich auf.
 * Bei mehrfachen Einsendungen zur selben Anlage bekommt der Ersteinsender den Gutschein. Um Mehrfacheinsendungen zu vermeiden, werden wir die Position so schnell wie möglich in die Karte mit dem Hinweis auf ausstehende Verifikation eintragen. Den Gutschein senden wir erst nach Verifikation zu.
