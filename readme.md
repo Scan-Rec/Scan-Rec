@@ -14,6 +14,9 @@ Das Logo „Scan-Rec“ vermittelt, dass ein Kennzeichen aufgenommen wird. Gleic
 # Kurzbeschreibung
 Mittels der Infrarotkamera des Raspberry-PI wird der charakteristische Infrarot-Blitz der Kennzeichenscanner sichtbar gemacht. Die Kamera befindet sich auf der Hutablage des Fahrzeugs und filmt nach hinten hinaus (getönte Heckscheiben vermeiden, siehe Tipps und Tricks). Die Kamera ist fast senkrecht, minimal nach oben ausgerichtet positioniert, sodass die Straße fast gar nicht mehr, nachfolgende Fahrzeuge gut sichtbar sind. Wir haben noch nicht getestet ob es auch bei Fahrzeugen mit getönten Heckscheiben klappt, siehe auch unter Tipps und Tricks. Hier könnte die Infrarotabsorption in der Scheibe zu groß sein. Wir freuen uns über Rückmeldungen hierzu im Bereich „Issues“.
 
+## Alle Infos
+Diese Seite befasst sich mit dem Setup der Enttarnungsanlage. Alle Infos wie z.B. Standorte, Schutzmaßnahmen und Funktionsweise der Kennzeichenscanner sind im Wiki https://github.com/Scan-Rec/Scan-Rec/wiki zu finden.
+
 # Die Anlage
 So könnte eure Anlage aussehen. Es gibt eine Powerbank zur Stromversorgung, den Raspberry-PI, die Kamera und den GPS-Dongle an einem USB-Verlängerungskabel um GPS-Störungen durch die Kamera/Kamerakabel zu minimieren.
 
