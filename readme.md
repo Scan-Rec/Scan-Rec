@@ -4,7 +4,7 @@
 Das Projekt Kennzeichen-Scan Enttarnen wurde geschaffen um die geheimgehaltenen Positionen der stationären sog. automatisierten Kennzeichenerfassung (kurz AKE) zu finden. Mehr Informationen zur Kennzeichenerfassung gibt es unter https://www.sueddeutsche.de/auto/automatische-kennzeichenerkennung-wo-ihr-nummernschild-erfasst-wird-1.2188409 
 > Petri bemängelt vor allem die Heimlichkeit, mit der in Bayern und Baden-Württemberg die Daten gesammelt werden. Denn Autofahrer würden nicht merken, dass ihre Kennzeichen gescannt werden. "Dadurch könnte der Eindruck entstehen, dass man sich nicht ungestört bewegen kann."
 
-Dieser Heimlichkeit wird hiermit ein Ende bereitet. Wir haben bereits 12 der 15 (https://www.stmi.bayern.de/med/pressemitteilungen/pressearchiv/2018/303b/index.php ) Standorte gefunden und hoffen auf eure eifrige Unterstützung. 
+Dieser Heimlichkeit wird hiermit ein Ende bereitet. Wir haben bereits 13 der 15 (https://www.stmi.bayern.de/med/pressemitteilungen/pressearchiv/2018/303b/index.php ) Standorte gefunden und hoffen auf eure eifrige Unterstützung. 
 Auf dieser Seite geht es um das Einrichten des State of the Art Enttarnungssystems. Bereits allein durch das Auge lassen sich die Kennzeichenscanner ebenfalls entdecken. Alle weiteren Enttarnungsmöglichkeiten, Schutzmaßnahmen und weitere Informationen finden sich im Wiki https://github.com/Scan-Rec/Scan-Rec/wiki
 
 # Bezeichnung „Scan-Rec“
@@ -37,7 +37,7 @@ Voraussetzungen:
 Möchtet ihr namentlich oder mit einem Pseudonym als Entdecker sowohl hier, als auch auf der Karte genannt werden, teilt uns das bitte mit in welcher Form das geschehen soll. Wir verweisen auch gerne auf eure Homepage.
 
 # Raspberry-PI Setup
-1. Download des Rasperry-PI Images von https://www.raspberrypi.org/downloads/raspbian/ hier „Raspbian Stretch with desktop“ wählen. Danach mit Etcher auf eine SD-Karte schreiben. Eine Anleitung dazu findet sich z.B. hier
+1. Download des Rasperry-PI Images von https://www.raspberrypi.org/downloads/raspbian/ hier „Raspbian Stretch with desktop“ wählen (Update 05.11.2019 Raspian Lite wird nun auch unterstützt). Danach mit Etcher auf eine SD-Karte schreiben. Eine Anleitung dazu findet sich z.B. hier
 https://couchpirat.de/tutorial-wie-man-mit-etcher-und-win32diskimager-das-betriebsystem-raspbian-installiert/ oder die offizielle Anleitung auf Englisch gibt es hier https://www.raspberrypi.org/documentation/installation/installing-images/README.md 
 Bitte auf die aktuellste Etcher-Version achten, besonders wenn Etcher beim Valideren Fehler meldet
 ACHTUNG: Windows 10 zeigt nach dem Flashen eventuell an, dass Dateien nicht gelesen werden könnten bzw. die Karte formatiert werden soll. Sollte dies der Fall sein: Hier unbedingt abbrechen klicken, es handelt sich hierbei um wichtige Linux-Partitionen, die Windows nicht lesen kann.
