@@ -4,7 +4,7 @@
 cd 
 
 sudo apt update -y
-sudo apt-get install gpsd gpsd-clients -y
+sudo apt-get install gpsd gpsd-clients git python3-pip -y
 
 #GPSD Option zum Autostart setzen
 sudo sed -i 's/^GPSD_OPTIONS=.*$/GPSD_OPTIONS="-n"/' /etc/default/gpsd
@@ -12,6 +12,7 @@ sudo sed -i 's/^GPSD_OPTIONS=.*$/GPSD_OPTIONS="-n"/' /etc/default/gpsd
 
 #GPS Library verfügbar machen
 sudo pip3 install gpsd-py3
+sudo pip3 install RPi.GPIO
 
 sudo apt-get install ntp -y
 
@@ -164,12 +165,15 @@ dateiname=$dateipfad`date "+%d.%m.%Y %H.%M.%S"`.h264
 
 echo  Speichere Video in $dateiname
 
-ffmpeg -f v4l2 -input_format h264 -framerate 30 -video_size 1920x1080 -i /dev/video0 -codec:v copy "$dateiname"
+geraet=$(v4l2-ctl --list-devices | grep -A 1 usb | grep '/dev/video[0-9]*' | tr -d "[:space:]")
+
+ffmpeg -f v4l2 -input_format h264 -framerate 30 -video_size 1920x1080 -i $geraet -codec:v copy "$dateiname"
 
 #Wenn keine Kamera angeschlossen ist
 sleep 10s
 
 done
+
 
 endmsg
 
