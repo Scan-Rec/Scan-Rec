@@ -489,9 +489,12 @@ chmod +x throttleStatus.sh
 
 #Speicherplatz gewinnen, ca. 1 GB
 
-sudo apt-get remove --purge wolfram-engine scratch minecraft-pi sonic-pi dillo gpicview oracle-java8-jdk openjdk-7-jre oracle-java7-jdk openjdk-8-jre -y
+sudo apt-get remove --purge wolfram-engine scratch minecraft-pi sonic-pi dillo gpicview oracle-java8-jdk openjdk-7-jre oracle-java7-jdk openjdk-8-jre rfkill -y
 sudo apt-get clean
 sudo apt-get autoremove -y
+
+#Seit Debian Buster erforderlich, sonst kann keine WLAN Verbindung hergestellt werden
+sudo rfkill unblock wifi
 
 
 
