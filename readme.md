@@ -5,7 +5,7 @@ Das Projekt Kennzeichen-Scan Enttarnen wurde geschaffen um die geheimgehaltenen 
 > Petri bemängelt vor allem die Heimlichkeit, mit der in Bayern und Baden-Württemberg die Daten gesammelt werden. Denn Autofahrer würden nicht merken, dass ihre Kennzeichen gescannt werden. "Dadurch könnte der Eindruck entstehen, dass man sich nicht ungestört bewegen kann."
 
 Dieser Heimlichkeit wird hiermit ein Ende bereitet. Wir haben bereits 13 der 15 (https://www.stmi.bayern.de/med/pressemitteilungen/pressearchiv/2018/303b/index.php ) Standorte gefunden und hoffen auf eure eifrige Unterstützung. 
-Auf dieser Seite geht es um das Einrichten des State of the Art Enttarnungssystems. Bereits allein durch das Auge lassen sich die Kennzeichenscanner ebenfalls entdecken. Alle weiteren Enttarnungsmöglichkeiten, Schutzmaßnahmen und weitere Informationen finden sich im Wiki https://github.com/Scan-Rec/Scan-Rec/wiki
+Auf dieser Seite geht es um das Einrichten des State of the Art Enttarnungssystems. Bereits allein durch das Auge lassen sich die Kennzeichenscanner ebenfalls entdecken. Alle weiteren Enttarnungsmöglichkeiten, Schutzmaßnahmen, insbesondere die [Standorte der bayerischen AKE Anlagen](https://github.com/Scan-Rec/Scan-Rec/wiki/AKE-Bayern-Standorte), sowie weitere Informationen finden sich im [AKE Wiki](https://github.com/Scan-Rec/Scan-Rec/wiki).
 
 # Bezeichnung „Scan-Rec“
 Scan-Rec hat eine doppelte Bedeutung.
