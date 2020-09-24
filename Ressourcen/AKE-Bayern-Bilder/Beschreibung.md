@@ -1,0 +1,1 @@
+Hier landen die Bilder zu den Standorten der bayerischen automatisierten Kennzeichenerfassung (AKE), verwendet werden sie im Wiki-Artikel [AKE Bayern Standorte](https://github.com/Scan-Rec/Scan-Rec/wiki/AKE-Bayern-Standorte)
