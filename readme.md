@@ -5,7 +5,7 @@ Das Projekt Kennzeichen-Scan Enttarnen wurde geschaffen um die geheimgehaltenen 
 > Petri bemängelt vor allem die Heimlichkeit, mit der in Bayern und Baden-Württemberg die Daten gesammelt werden. Denn Autofahrer würden nicht merken, dass ihre Kennzeichen gescannt werden. "Dadurch könnte der Eindruck entstehen, dass man sich nicht ungestört bewegen kann."
 
 Dieser Heimlichkeit wird hiermit ein Ende bereitet. Wir haben bereits 13 der 15 (https://www.stmi.bayern.de/med/pressemitteilungen/pressearchiv/2018/303b/index.php ) Standorte gefunden und hoffen auf eure eifrige Unterstützung. 
-Auf dieser Seite geht es um das Einrichten des State of the Art Enttarnungssystems. Bereits allein durch das Auge lassen sich die Kennzeichenscanner ebenfalls entdecken. Alle weiteren Enttarnungsmöglichkeiten, Schutzmaßnahmen, insbesondere die [Standorte der bayerischen AKE Anlagen](https://github.com/Scan-Rec/Scan-Rec/wiki/AKE-Bayern-Standorte), sowie weitere Informationen finden sich im [AKE Wiki](https://github.com/Scan-Rec/Scan-Rec/wiki).
+Auf dieser Seite geht es um das Einrichten des State of the Art Enttarnungssystems. Bereits allein durch das Auge lassen sich die Kennzeichenscanner ebenfalls entdecken. Alle weiteren Enttarnungsmöglichkeiten, Schutzmaßnahmen, insbesondere die [Standorte der bayerischen AKE Anlagen](https://scan-rec.github.io/AKE-Standorte-Bayern), sowie weitere Informationen finden sich im [AKE Wiki](https://scan-rec.github.io/).
 
 # Bezeichnung „Scan-Rec“
 Scan-Rec hat eine doppelte Bedeutung.
@@ -15,7 +15,7 @@ Das Logo „Scan-Rec“ vermittelt, dass ein Kennzeichen aufgenommen wird. Gleic
 Mittels der Infrarotkamera des Raspberry-PI wird der charakteristische Infrarot-Blitz der Kennzeichenscanner sichtbar gemacht. Die Kamera befindet sich auf der Hutablage des Fahrzeugs und filmt nach hinten hinaus (getönte Heckscheiben vermeiden, siehe Tipps und Tricks). Die Kamera ist fast senkrecht, minimal nach oben ausgerichtet positioniert, sodass die Straße fast gar nicht mehr, nachfolgende Fahrzeuge gut sichtbar sind. Wir haben noch nicht getestet ob es auch bei Fahrzeugen mit getönten Heckscheiben klappt, siehe auch unter Tipps und Tricks. Hier könnte die Infrarotabsorption in der Scheibe zu groß sein. Wir freuen uns über Rückmeldungen hierzu im Bereich „Issues“.
 
 ## Alle Infos
-Diese Seite befasst sich mit dem Setup der Enttarnungsanlage. Alle Infos wie z.B. Standorte, Schutzmaßnahmen und Funktionsweise der Kennzeichenscanner sind im Wiki https://github.com/Scan-Rec/Scan-Rec/wiki zu finden.
+Diese Seite befasst sich mit dem Setup der Enttarnungsanlage. Alle Infos wie z.B. Standorte, Schutzmaßnahmen und Funktionsweise der Kennzeichenscanner sind im Wiki https://scan-rec.github.io/ zu finden.
 
 # Die Anlage
 So könnte eure Anlage aussehen. Es gibt eine Powerbank zur Stromversorgung, den Raspberry-PI, die Kamera und den GPS-Dongle an einem USB-Verlängerungskabel um GPS-Störungen durch die Kamera/Kamerakabel zu minimieren.
@@ -28,7 +28,7 @@ An die ersten 3 Einsender von neuen Kennzeichenscan-Anlagen verschenken wir je e
 Voraussetzungen:
 * Die Anlagen sind noch nicht im Layer "AKE verifiziert" in unserer Karte https://umap.openstreetmap.fr/en/map/ake-deutschland_234435 enthalten
 * Tipp: Wir haben in der Karte vermutete Positionen. Dort ist die Wahrscheinlichkeit Anlagen zu finden aus unserer Sicht besonders hoch.
-* Für die erste Suche reicht es aus die Augen offen zu halten und erst bei Fund diesen videotechnisch festzuhalten, siehe https://github.com/Scan-Rec/Scan-Rec/wiki/Weitere-einfache-Erkennungsm%C3%B6glichkeiten
+* Für die erste Suche reicht es aus die Augen offen zu halten und erst bei Fund diesen videotechnisch festzuhalten, siehe https://scan-rec.github.io/AKE-Erkennung-Enttarnung-ohne-Spezialhardware
 * Aus dem Foto/Video muss die Position der Anlage klar hervorgehen, z.B. durch eine GPS-Einblendung oder einen ausreichend langen Ausschnitt um die Position durch Abfahrtsnamen auf der Gegenfahrbahn verifizieren zu können. D.h. sollte das Video keine GPS-Koordinaten zeigen, muss mindestens die komplette Fahrt zwischen 2 Ausfahrten eingesendet werden
 * Das Foto/Video muss die Anlage bei Tag zeigen. Ein Video/Foto bei Nacht des IR-Blitzes nehmen wir gerne zusätzlich auf.
 * Bei mehrfachen Einsendungen zur selben Anlage bekommt der Ersteinsender den Gutschein. Um Mehrfacheinsendungen zu vermeiden, werden wir die Position so schnell wie möglich in die Karte mit dem Hinweis auf ausstehende Verifikation eintragen. Den Gutschein senden wir erst nach Verifikation zu.
