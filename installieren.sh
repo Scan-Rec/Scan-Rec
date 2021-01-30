@@ -317,7 +317,7 @@ sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.org
 sudo bash -c "cat > /etc/dnsmasq.conf <<'endmsg'
 interface=wlan0
 listen-address=192.168.3.1
-dhcp-range=192.168.3.10,192.168.3.250,255.255.255.0,24h
+dhcp-range=192.168.3.10,192.168.3.250,255.255.255.0,192.168.3.255,24h
 dhcp-option=6,192.168.3.1
 port=0
 resolv-file=
