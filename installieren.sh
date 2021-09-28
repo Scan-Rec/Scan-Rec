@@ -112,10 +112,12 @@ while True:
 
         #shutil.move(tempDatei.name,'/dev/shm/mjpeg/user_annotate.txt')
        
-
-        gpsTextDatei = open('/dev/shm/mjpeg/user_annotate.txt', 'w', encoding='iso-8859-1')
-        gpsTextDatei.write(GPS)
-        gpsTextDatei.close()
+        try: #Nach dem Hochfahren steht es noch nicht direkt zur Verfügung, Absturz verhindern
+            gpsTextDatei = open('/dev/shm/mjpeg/user_annotate.txt', 'w', encoding='iso-8859-1')
+            gpsTextDatei.write(GPS)
+            gpsTextDatei.close()
+        except:
+            time.sleep(1)
 
         #print(GPS)
         
@@ -127,6 +129,7 @@ while True:
 
 
 #
+
 
 
 
